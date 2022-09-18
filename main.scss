@@ -1,0 +1,29 @@
+html{
+  font-size: 62.5%;
+}
+
+.navbar-img{
+  height:7rem;
+}
+
+
+
+#home{
+  background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.9)), url(../../images/img-6.jpg);
+  background-size: cover;
+}
+
+
+#registration{
+  background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../images/img-2.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+
+
+@media (max-width:56.25em) {
+  html{
+    font-size: 50%;
+  }
+}
